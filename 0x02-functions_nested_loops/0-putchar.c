@@ -1,19 +1,16 @@
-#include "main.h"
+#include <stdio.h>
 /**
- * main - print _putchar
- * is written by foreignwealth
- * Return: 0
+ * main - Print a given output
+ * created by opeyemi oladoyinbo
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-_putchar('_');
-_putchar('p');
-_putchar('u');
-_putchar('t');
-_putchar('c');
-_putchar('h');
-_putchar('a');
-_putchar('r');
-_putchar('\n');
-return (0);
+	char *s = "_putchar\n";
+
+	while (*s)
+		putchar(*s++);
+
+	return (0);
 }
