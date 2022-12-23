@@ -1,17 +1,20 @@
 #include "main.h"
 
 /**
- * _isupper - Entry
- * 23rd Dec by opeyemi
- * @c: argument
- * int: data type
+ * _isupper - Checkes upper case
+ * @c : print int
  * Return: 0 and 1 success
  */
 
 int _isupper(int c)
 {
 	if (c >= 'A' && c <= 'Z')
+	{
 		return (1);
-	else
+}
+
+else
+	{
 		return (0);
+	}
 }
