@@ -43,7 +43,7 @@ s2 = "";
 size = (_strlen(s1) + _strlen(s2) + 1);
 
 /*malloc*/
-dst = (char *) malloc(size * sizeof(char));
+dst = (char *) malloc(size *sizeof(char));
 
 if (dst == 0)
 {
@@ -54,9 +54,9 @@ return (NULL);
 for (i = 0; *(s1 + i) != '\0'; i++)
 *(dst + i) = *(s1 + i);
 
-for (j = 0; *(s2 + j) !='\0'; j++)
+for (j = 0; *(s2 + j) != '\0'; j++)
 {
-*(dst +1) = *(s2 + j);
+*(dst + 1) = *(s2 + j);
 i++;
 }
 return (dst);
