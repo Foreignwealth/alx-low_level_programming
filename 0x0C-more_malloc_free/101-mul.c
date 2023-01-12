@@ -1,20 +1,3 @@
-
-323damilola
-/
-alx-low_level_programming
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-alx-low_level_programming/0x0C-more_malloc_free/101-mul.c
-@323damilola
-323damilola .
- 1 contributor
-144 lines (132 sloc)  2.53 KB
 #include "main.h"
 #include <stdlib.h>
 
